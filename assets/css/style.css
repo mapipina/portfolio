@@ -1,0 +1,18 @@
+.green-filter:after {
+background: rgba(210,255,82,1);
+background: -moz-linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(34,139,34,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(34,139,34,1)));
+background: -webkit-linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(34,139,34,1) 100%);
+background: -o-linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(34,139,34,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(34,139,34,1) 100%);
+background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(34,139,34,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#228b22', GradientType=1 );
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+.footer-logo>img {
+  height: 100%;
+  width: auto;
+}
