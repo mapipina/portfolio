@@ -1,0 +1,25 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme 
+
+title: Mapi Piña's Portfolio
+description: Software Engineering Manager with 3+ years leading teams and Full Stack expertise.
+show_downloads: false
+logo: /assets/images/white-mapi-pina-logo.svg
+github: mapipina
+linkedin: mapipina
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: "https://mapipina.github.io" 
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+# theme: minimal
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-remote-theme
+#   - jekyll-gist
+# github:
+#   is_project_page: true
+#   repository_url: "
