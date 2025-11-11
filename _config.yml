@@ -1,6 +1,7 @@
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 plugins:
-- jekyll-remote-theme 
+  - jekyll-feed
+  - jekyll-seo-tag
 
 title: Mapi Piña's Portfolio
 description: Software Engineering Manager with 3+ years leading teams and Full Stack expertise.

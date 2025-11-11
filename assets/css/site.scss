@@ -1,0 +1,102 @@
+---
+---
+
+/* Import the theme’s CSS first */
+@import "{{ site.theme }}";
+
+/* === Island look & feel =============================================== */
+
+:root {
+  --accent-green-start: #a2e82b; /* tweak to taste */
+  --accent-green-end:   #149d1f;
+  --page-max: 1100px;
+  --brand-font: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* global */
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--brand-font);
+  color: #222;
+  background: linear-gradient(135deg, var(--accent-green-start), var(--accent-green-end)) fixed;
+}
+
+/* page container from Minimal gets a white card look below the hero */
+.page {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  background: #fff;
+  padding: 3rem 2rem;
+}
+
+/* top bar */
+.site-header {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header .logo {
+  display: flex; gap: .5rem; align-items: center;
+  color: #fff; text-decoration: none; font-weight: 600;
+}
+.site-header .logo img { height: 32px; width: auto; }
+.site-header nav a {
+  color: #fff; text-decoration: none; margin-left: 1.25rem; font-weight: 500;
+}
+.site-header nav a:hover { text-decoration: underline; }
+
+/* hero */
+.hero {
+  min-height: 70vh;
+  display: grid; place-items: center;
+  text-align: left;
+  color: #fff;
+  padding: 6rem 2rem 4rem;
+}
+.hero .hero-inner {
+  width: 100%;
+  max-width: var(--page-max);
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 1.05; margin: 0;
+  font-weight: 700;
+}
+
+/* section headings */
+h2.section-title {
+  margin-top: 0; font-size: clamp(1.8rem, 3vw, 2.2rem);
+}
+
+/* cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  padding: 1rem;
+  text-align: center;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0,0,0,.12);
+}
+.card img {
+  width: 100%; height: auto; border-radius: 10px; margin-bottom: .75rem;
+}
+.card h3 { margin: .25rem 0 .25rem; }
+.card p.meta { color:#666; margin: 0 0 .5rem; font-size: .95rem; }
+
+/* footer stays readable on gradient bottom */
+.site-footer { color: #fff; }
+.site-footer a { color: #fff; text-decoration: underline; }
