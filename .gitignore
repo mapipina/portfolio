@@ -1,0 +1,34 @@
+# --------------------------------------------------------------------
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / Ruby environment
+.bundle/
+vendor/
+Gemfile.lock
+
+# Logs / temp
+*.log
+tmp/
+.DS_Store
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# rbenv & other Ruby version managers
+.rbenv-version
+.ruby-version
+
+# Editor / IDE stuff
+.idea/
+.vscode/
+*.swp
+
+# Node/npm (if used for frontend assets)
+node_modules/
+package-lock.json

@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<!-- top bar over the gradient -->
+<div class="site-header">
+  <a class="logo" href="{{ '/' | relative_url }}">
+    <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Mapi Piña logo">
+    <span>Mapi Piña</span>
+  </a>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#work">My Work</a>
+    <a href="https://www.linkedin.com/in/mapipina" target="_blank" rel="noopener">LinkedIn</a>
+  </nav>
+</div>
+
+<!-- hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Welcome to my island</h1>
+    <p class="tagline">{{ site.title }}</p>
+  </div>
+</section>
+
+<!-- white content area provided by .page from theme -->
+<div class="page">
+  <section id="about">
+    <h2 class="section-title">My Story</h2>
+    <p>I’m an Engineering Manager focused on helping teams build scalable, reliable software that improves how people work. …</p>
+  </section>
+
+  <section id="work" style="margin-top:3rem">
+    <h2 class="section-title">My Work</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="{{ '/assets/img/pineapple.webp' | relative_url }}" alt="Exotic Fruit Collector">
+        <h3>Exotic Fruit Collector</h3>
+        <p class="meta">Game</p>
+        <p>An interactive game where you aim to beat the computer.</p>
+      </article>
+
+      <article class="card">
+        <img src="{{ '/assets/img/disney.webp' | relative_url }}" alt="Disney Quiz">
+        <h3>Disney Quiz</h3>
+        <p class="meta">Game</p>
+        <p>A quick quiz that challenges your Disney knowledge.</p>
+      </article>
+
+      <article class="card">
+        <img src="{{ '/assets/img/giphy.webp' | relative_url }}" alt="Giphy App">
+        <h3>Giphy</h3>
+        <p class="meta">App</p>
+        <p>A dynamic page that populates GIFs of your choice.</p>
+      </article>
+    </div>
+  </section>
+</div>

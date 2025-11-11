@@ -1,0 +1,17 @@
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+title: People. Process. Product.
+description: Software Engineering Manager with 3+ years leading teams and Full Stack expertise.
+show_downloads: false
+logo: /assets/img/logo.svg
+github: mapipina
+linkedin: mapipina
+baseurl: "/portfolio" 
+url: "https://mapipina.github.io" 
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true

@@ -1,4 +1,6 @@
 # About Me
-I’m currently a digital marketer focused on pivoting my career to focus on web and app development. Having worked in several industries, such as gaming and financial services, has enabled me to quickly adapt to different working environments. I'm looking for a role that marries my abilities to think creatively and analytically.
+I’m an Engineering Manager with a passion for building great teams and even better software. I’ve spent the past few years leading distributed teams to deliver scalable, cloud-based products and improve developer experience across the stack.
 
-### Please note that this is the first rendition of my professional portfolio. There will be new updates to come!
+Before moving into engineering, I worked in marketing and analytics — experience that taught me how to think creatively, communicate clearly, and keep users at the center of every decision. Today, I focus on leading with empathy, building inclusive team cultures, and helping engineers do their best work.
+
+### _Currently refactoring my portfolio, please take a look at the rest of my GitHub Profile in the meantime_
