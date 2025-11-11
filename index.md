@@ -1,5 +1,10 @@
+---
 layout: default
 title: Home
+---
+
+<h1 style="text-align:center;">Welcome to my island</h1>
+
 ---
 
 ## 👋 Hi, I’m Mapi
