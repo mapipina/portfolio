@@ -5,7 +5,6 @@ title: Home
 
 <h1 style="text-align:center;">Welcome to my island</h1>
 
----
 
 ## 👋 Hi, I’m Mapi
 
@@ -23,8 +22,9 @@ As an engineering leader, I focus on balancing delivery speed, system reliabilit
 
 ## 📄 Learn More
 
-If you’d like a detailed view of my work history and technical background, you can:  
+If you’d like know more about my technical and managerial skills and background, you can:  
 <!-- - [View my latest resume (PDF)](/assets/files/Mapi_Pina_Resume.pdf)   still thinking on whether I want to add resume to this page -->
+- [Visit my projects page →]({{ '/projects/' | relative_url }}){: .learn-link}
 - Or reach out directly on [LinkedIn](https://www.linkedin.com/in/mapipina)  
 
 If you’d like to collaborate or connect, feel free to **open an issue** on this site’s [GitHub repository](https://github.com/mapipina/portfolio) or send me a message.  

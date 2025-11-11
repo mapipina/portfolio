@@ -1,15 +1,16 @@
+---
 layout: default
 title: Technical & Management Projects
 permalink: /projects/
 ---
 
-## 🛠️ Project Showcase
+## Project Showcase
 
-This section highlights selected technical initiatives and management case studies from my career — spanning SaaS modernization, developer experience improvements, and early professional work in enterprise consulting.
+This section highlights selected technical initiatives and management case studies from my career.
 
 ---
 
-### 🚀 **Frontend Deployment Infrastructure Rebuild**
+### **Frontend Deployment Infrastructure Rebuild**
 **Role:** Engineering Manager  
 **Tech:** React, Docker, Terraform, AWS App Runner, GitHub Actions  
 
@@ -20,7 +21,7 @@ Rebuilt the frontend deployment process into containerized preview environments,
 
 ---
 
-### ⚙️ **Microservices Consolidation and Monorepo Adoption**
+### **Microservices Consolidation and Monorepo Adoption**
 **Role:** Engineering Manager  
 **Tech:** TypeScript, AWS Lambda, API Gateway, Terraform, RDS, GitHub Actions  
 
@@ -31,7 +32,7 @@ Unified fragmented backend services into a shared monorepo and centralized RDS i
 
 ---
 
-### 🔄 **Java Energy Star Integration Service Migration**
+### **Java Energy Star Integration Service Migration**
 **Role:** Senior Fullstack Engineer → Engineering Manager  
 **Tech:** Java, TypeScript, AWS Lambda, Terraform, Jest  
 
@@ -42,7 +43,7 @@ Re-architected a legacy Java monolith into an AWS Lambda–based microservice wr
 
 ---
 
-### 💼 **Earlier Consulting Work at Deloitte**
+### **Earlier Consulting Work at Deloitte**
 **Role:** Full Stack Engineer / Consultant  
 
 Contributed to enterprise client projects across analytics, UX, and internal innovation products.  
@@ -54,7 +55,7 @@ Contributed to enterprise client projects across analytics, UX, and internal inn
 
 ---
 
-### 📈 **Process Improvement Case Study: Scrum Transition**
+### **Process Improvement Case Study: Scrum Transition**
 **Goal:** Improve delivery predictability and communication across distributed teams.  
 **Action:** Introduced structured Scrum with sprint planning, retrospectives, and progress tracking using velocity metrics.  
 **Outcome:**  
