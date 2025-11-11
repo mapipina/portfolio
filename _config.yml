@@ -9,18 +9,9 @@ show_downloads: false
 logo: /assets/img/logo.svg
 github: mapipina
 linkedin: mapipina
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" 
 url: "https://mapipina.github.io" 
-# markdown: kramdown
-# kramdown:
-#   input: GFM
-# theme: minimal
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
-#   - jekyll-sitemap
-#   - jekyll-remote-theme
-#   - jekyll-gist
-# github:
-#   is_project_page: true
-#   repository_url: "
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true

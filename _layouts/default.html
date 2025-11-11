@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Minimal theme stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% seo %}
+
+    <!-- Your custom head (favicon + site.css). Remove this line if you don't have it. -->
+    {% include head-custom.html %}
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            {%- if site.logo -%}
+            <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
+            {%- endif -%}
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+        </header>
+
+        <section>
+            {{ content }}
+        </section>
+
+        {% unless page.url == "/" %}
+        <nav class="back-nav">
+            <a href="{{ '/' | relative_url }}">← Back to Home</a>
+        </nav>
+        {% endunless %}
+
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <span>&copy;
+                    <script>document.write(new Date().getFullYear())</script>,
+                </span>
+                <a href="https://linkedin.com/in/mapipina" target="_blank" rel="noopener">
+                    <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Mapi Piña logo" class="footer-logo">
+                </a>
+                <span class="footer-tagline">Built with care using Jekyll & GitHub Pages</span>
+            </div>
+        </footer>
+
+    </div>
+
+    {% if site.google_analytics %}
+    {% include google-analytics.html %}
+    {% endif %}
+</body>
+
+</html>

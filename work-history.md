@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Technical & Management Projects
-permalink: /projects/
+title: Technical & Management Work History
+permalink: /work-history/
 ---
 
 ## Project Showcase
 
-This section highlights selected technical initiatives and management case studies from my career.
+This section highlights a curated selection of technical initiatives and engineering leadership milestones from my career. Each example reflects a blend of hands-on development, system design, and team management that shaped my approach to building scalable, resilient products.
+
 
 ---
 

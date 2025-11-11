@@ -1,0 +1,35 @@
+- title: Exotic Fruit Collector
+  kind: Game
+  repo: https://github.com/mapipina/exotic-fruit-collector
+  img: /assets/img/pineapple.jpg
+  blurb: An interactive game where you aim to beat the computer.
+
+- title: Disney Quiz
+  kind: Game
+  repo: https://github.com/mapipina/disney-quiz
+  img: /assets/img/steamboat.jpg
+  blurb: A fun and quick quiz that challenges your Disney knowledge.
+
+- title: Giphy
+  kind: App
+  repo: https://github.com/mapipina/giphy-app
+  img: /assets/img/stars.jpg
+  blurb: A dynamic web page that populates the GIFs of your choice.
+
+- title: Disney Hangman
+  kind: Game
+  repo: https://github.com/mapipina/disney-hangman
+  img: /assets/img/mickey-hangman.jpg
+  blurb: A Disney twist on a classic computer game.
+
+- title: bAmazon
+  kind: Utility
+  repo: https://github.com/mapipina/bamazon
+  img: /assets/img/bAmazon.jpg
+  blurb: A Node.js app that acts like a smaller version of Amazon.
+
+- title: Pantry-to-Plate
+  kind: Utility
+  repo: https://github.com/mapipina/pantry-to-plate
+  img: /assets/img/pantry-to-plate.jpg
+  blurb: A website that helps you find recipes with the ingredients in your pantry.
