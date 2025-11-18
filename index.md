@@ -8,11 +8,11 @@ title: Home
 <div class="intro">
 ## 👋 Hi, I’m Mapi
 
-I help teams build software that scales, behaves, and ideally doesn’t page anyone at 3 a.m. My leadership philosophy is pretty simple: treat people like people, create space for great ideas, and build a team environment where trust is the default, not an earned luxury.
+I help teams build software that scales, behaves, and ideally doesn’t page anyone at 3 a.m. My leadership philosophy is pretty simple: treat people like people, create space for great ideas, and build a team environment where trust is strong and communications are clear.
 
 Before engineering management, I built a career in digital marketing working in various industries such as, entertainment, telecom, real estate, you name it. Somewhere between campaign analytics and copy reviews, I fell in love with the little pockets of code I kept encountering. One lucky ad for a University of Miami coding bootcamp later, and boom: career pivot activated.
 
-Now I’m an engineering manager who has navigated full stack work, cloud services, and even dipped into virtualization (unexpectedly fun). When I’m not coaching engineers or guiding roadmaps, you’ll find me hanging out with my dogs or convincing yet another houseplant to survive. Mixed results so far.
+Now I’m an engineering manager who has navigated full stack work, cloud services, and even dipped into virtualization (wild and fun). When I’m not coaching engineers or guiding roadmaps, you’ll find me hanging out with my dogs, obsessing over a mobile game, getting lost in a TV show or book, or convincing yet another houseplant to survive.
 </div>
 
 ## Leadership and Impact
