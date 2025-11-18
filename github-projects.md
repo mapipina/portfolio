@@ -6,9 +6,9 @@ permalink: /github-projects/
 
 # GitHub Projects
 
-A selection of side projects I built during my intensive MERN stack coding bootcamp. Each showcases different aspects of my learning journey—from full-stack fundamentals to creative front-end experimentation.  
+A selection of side projects I built during my intensive MERN stack coding bootcamp. Each showcases different aspects of my learning journey.  
 
-⚙️ **Phase 2:** Rebuild this portfolio using Jekyll and GitHub Pages.  
+✅ ~~**Phase 2:** Rebuild this portfolio using Jekyll and GitHub Pages.~~  
 🚀 **Phase 3:** Add more recent personal projects and open-source work.
 
 

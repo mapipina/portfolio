@@ -21,19 +21,17 @@
             {%- if site.logo -%}
             <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
             {%- endif -%}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <p>{{ site.description | default: site.github.project_tagline }}</p>
         </header>
 
         <section>
+            {% unless page.url == "/" %}
+            <nav class="back-nav">
+                <a href="{{ '/' | relative_url }}">← Back to Home</a>
+            </nav>
+            {% endunless %}
             {{ content }}
         </section>
-
-        {% unless page.url == "/" %}
-        <nav class="back-nav">
-            <a href="{{ '/' | relative_url }}">← Back to Home</a>
-        </nav>
-        {% endunless %}
 
 
         <footer class="site-footer">

@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
   --green-start: #b1ea4e;
@@ -22,19 +23,37 @@
 
 html, body {
   height: 100%;
-  background: linear-gradient(135deg, var(--green-start), var(--green-end)) fixed;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background:
+    url("{{ '/assets/img/pineapple-pattern.svg' | relative_url }}"),
+    linear-gradient(135deg, #fffef8 0%, #fff6dd 100%);
+  background-repeat: repeat, no-repeat;
+  background-size: 320px 320px, auto;
+  background-attachment: fixed, fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.55);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .page {
   max-width: var(--page-max);
   margin: 2.5rem auto 3rem;
-  background: var(--card-bg);
+  background: rgba(255, 255, 255, 0.97);
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
   padding: 2.5rem 2rem 2.75rem;
-  transition: box-shadow 0.3s ease;
 }
 
 .page:hover {
@@ -118,25 +137,9 @@ a:hover {
   opacity: 0.85;
 }
 
-h3 + ul {
-  background: var(--highlight-bg);
-  border: 1px solid var(--highlight-border);
-  border-left: 4px solid var(--green-end);
-  border-radius: var(--radius);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-  opacity: 0.7;
-  padding: 1rem 1.25rem;
-  margin-top: 0.75rem;
-  margin-bottom: 1.75rem;
-  transition: background 0.3s ease;
-}
-
-h3 + ul:hover {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-h3 + ul li strong {
-  color: var(--forest);
+.intro p {
+  font-size: 1.05rem; 
+  line-height: 1.65;
 }
 
 a.learn-link {
@@ -145,11 +148,22 @@ a.learn-link {
   border-bottom-width: 3px;
 }
 
-.page {
-  opacity: 0;
-  transform: translateY(10px);
-  animation: fadeSlideIn 0.8s ease forwards;
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right,
+    rgba(0,0,0,0.04),
+    rgba(0,0,0,0.15),
+    rgba(0,0,0,0.04)
+  );
+  margin: 1.5rem 0;
 }
+
+.wrapper > header p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 
 @keyframes fadeSlideIn {
   from { opacity: 0; transform: translateY(20px); }
@@ -259,7 +273,6 @@ a.learn-link {
 
 .back-nav a {
   background: linear-gradient(135deg, var(--accent-green-start), var(--accent-green-end));
-  color: #fff;
   font-weight: 500;
   border-radius: 9999px;
   padding: 0.4rem 1rem;
