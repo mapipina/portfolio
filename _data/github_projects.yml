@@ -1,35 +1,15 @@
-- title: Exotic Fruit Collector
-  kind: Game
-  repo: https://github.com/mapipina/exotic-fruit-collector
-  img: /assets/img/pineapple.jpg
-  blurb: An interactive game where you aim to beat the computer.
-
-- title: Disney Quiz
-  kind: Game
-  repo: https://github.com/mapipina/disney-quiz
-  img: /assets/img/steamboat.jpg
-  blurb: A fun and quick quiz that challenges your Disney knowledge.
-
-- title: Giphy
+- title: Literary Travels
   kind: App
-  repo: https://github.com/mapipina/giphy-app
-  img: /assets/img/stars.jpg
-  blurb: A dynamic web page that populates the GIFs of your choice.
-
-- title: Disney Hangman
-  kind: Game
-  repo: https://github.com/mapipina/disney-hangman
-  img: /assets/img/mickey-hangman.jpg
-  blurb: A Disney twist on a classic computer game.
-
-- title: bAmazon
+  repo: https://github.com/mapipina/literary-travels
+  img: 
+  blurb: A multi-user application that links travel destinations with reading lists. It is built with React 19 and Mantine UI.
+- title: US Food Holiday Planner
+  kind: App
+  repo: https://github.com/mapipina/us-food-holiday-planner
+  img: 
+  blurb: A dynamic meal planner for quirky food holidays. It organizes themed recipes and schedules for users.
+- title: HKIA Gem Match Tool
   kind: Utility
-  repo: https://github.com/mapipina/bamazon
-  img: /assets/img/bAmazon.jpg
-  blurb: A Node.js app that acts like a smaller version of Amazon.
-
-- title: Pantry-to-Plate
-  kind: Utility
-  repo: https://github.com/mapipina/pantry-to-plate
-  img: /assets/img/pantry-to-plate.jpg
-  blurb: A website that helps you find recipes with the ingredients in your pantry.
+  repo: https://github.com/mapipina/hkia-gem-match-tool
+  img: 
+  blurb: A utility application to track winning game combinations. It features a responsive interface for quick data entry.
