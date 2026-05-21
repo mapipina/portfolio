@@ -6,7 +6,9 @@ permalink: /github-projects/
 
 # GitHub Projects
 
-A selection of side projects I built during my intensive MERN stack coding bootcamp. Each showcases different aspects of my learning journey.  
+A selection of recent side projects.
+
+**Note: I am currently updating this page to include system diagrams of sample work.**
 
 ✅ ~~**Phase 2:** Rebuild this portfolio using Jekyll and GitHub Pages.~~  
 🚀 **Phase 3:** Add more recent personal projects and open-source work.
@@ -16,7 +18,7 @@ A selection of side projects I built during my intensive MERN stack coding bootc
 {% for p in site.data.github_projects %}
 <article class="gh-card gh-card--row">
     <a class="gh-thumb" href="{{ p.repo }}" target="_blank" rel="noopener">
-      <img src="{{ p.img | relative_url }}" alt="{{ p.title }} thumbnail">
+      <img src="{{ p.img | relative_url }}" onerror="this.src='{{ '/assets/img/fallback.png' | relative_url }}'" alt="{{ p.title }} thumbnail">
     </a>
     <div class="gh-body">
       <div class="gh-headline">
