@@ -37,7 +37,6 @@ I view AI as a fantastic tool to help engineers act as true architects. It shoul
 
 ## Learn More
 
-If you want to know more about my work you can:  
-- [Visit my projects page →]({{ '/work-history/' | relative_url }}){: .learn-link}
+If you want to know more about my skills and experience you can:  
 - Explore [my GitHub projects →]({{ '/github-projects/' | relative_url }})
-- Or reach out directly on [LinkedIn](https://www.linkedin.com/in/mapipina)
+- Reach out directly on [LinkedIn](https://www.linkedin.com/in/mapipina)

@@ -2,6 +2,7 @@
 layout: default
 title: Technical & Management Work History
 permalink: /work-history/
+published: false
 ---
 
 # Project Showcase
